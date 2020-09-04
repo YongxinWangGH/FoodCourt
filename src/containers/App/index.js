@@ -8,6 +8,9 @@ import Home from '../Home'
 import ProductDetail from '../ProductDetail'
 import Search from "../Search";
 import SearchResult from "../SearchResult" 
+import Login from "../Login";
+import PrivateRoute from "../PrivateRoute";
+import User from "../User";
 
 class App extends Component {
   render() {
@@ -19,6 +22,8 @@ class App extends Component {
       <div className="App">
         <Router>
           <Switch>
+            <Route path="/login" component={Login} />
+            <PrivateRoute path="/user" component={User} />
             <Route path="/detail/:id" component={ProductDetail} />
             <Route path="/search" component={Search} />
             <Route path="/search_result" component={SearchResult} />
