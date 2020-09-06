@@ -1,16 +1,17 @@
 import React, { Component } from "react";
 import { bindActionCreators } from "redux";
-import { BrowserRouter as Router, Route, Switch} from "react-router-dom"
+import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
 import { connect } from "react-redux";
 import ErrorToast from "../../components/ErrorToast";
 import { actions as appActions, getError } from "../../redux/modules/app";
-import Home from '../Home'
-import ProductDetail from '../ProductDetail'
+import Home from "../Home";
+import ProductDetail from "../ProductDetail";
 import Search from "../Search";
-import SearchResult from "../SearchResult" 
+import SearchResult from "../SearchResult";
 import Login from "../Login";
 import PrivateRoute from "../PrivateRoute";
 import User from "../User";
+import Purchase from "../Purchase"
 
 class App extends Component {
   render() {
@@ -27,9 +28,10 @@ class App extends Component {
             <Route path="/detail/:id" component={ProductDetail} />
             <Route path="/search" component={Search} />
             <Route path="/search_result" component={SearchResult} />
+            <PrivateRoute path="/purchase/:id" component={Purchase} />
             <Route path="/" component={Home} />
           </Switch>
-        </Router>  
+        </Router>
         {error ? <ErrorToast msg={error} clearError={clearError} /> : null}
       </div>
     );
