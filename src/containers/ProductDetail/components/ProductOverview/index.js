@@ -23,10 +23,10 @@ class ProductOverview extends Component {
           </div>
         </div>
         <div className="productOverview__purchase">
-          <span className="productOverview__symbol">¥</span>
+          <span className="productOverview__symbol">$</span>
           <span className="productOverview__price">{currentPrice}</span>
           <span className="productOverview__price--old">¥{oldPrice}</span>
-          <Link className="productOverview__btn" to={`/purchase/${id}`}>立即购买</Link>
+          <Link className="productOverview__btn" to={`/purchase/${id}`}>Order</Link>
         </div>
         <ul className="productOverview__remark">
           <li className="productOverview__remarkItem">

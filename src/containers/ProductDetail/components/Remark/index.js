@@ -7,7 +7,7 @@ class Remark extends Component {
     return (
       <div className="remark">
         <div className="remark__header">
-          购买须知
+          Coupon details
           <i className="remark__icon" />
         </div>
         <div className="remark__list">

@@ -27,11 +27,11 @@ class OrderItem extends Component {
           <div>
             {type === 1 && !commentId ? (
               <div className="orderItem__btn" onClick={this.handleComment}>
-                评价
+                Comment
               </div>
             ) : null}
             <div className="orderItem__btn" onClick={this.handleRemove}>
-              删除
+              Delete
             </div>
           </div>
         </div>
@@ -54,13 +54,13 @@ class OrderItem extends Component {
           className="orderItem__commentBtn"
           onClick={this.props.onSubmitComment}
         >
-          提交
+          Submit
         </button>
         <button
           className="orderItem__commentBtn"
           onClick={this.props.onCancelComment}
         >
-          取消
+          Cancel
         </button>
       </div>
     );

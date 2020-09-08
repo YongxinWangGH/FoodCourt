@@ -7,7 +7,7 @@ class SearchHistory extends Component {
     const {data} = this.props;
     return (
       <div className="searchHistory">
-        <div className="searchHistory__header">搜索记录</div>
+        <div className="searchHistory__header">Search history</div>
         <ul className="searchHistory__list">
           {
             data.map((item, index) =>{
@@ -17,7 +17,7 @@ class SearchHistory extends Component {
             })
           }
         </ul>
-        <div className="searchHistory__clear" onClick={this.handleClear}>清除搜索记录</div>
+        <div className="searchHistory__clear" onClick={this.handleClear}>Clear Search History</div>
       </div>
     );
   }

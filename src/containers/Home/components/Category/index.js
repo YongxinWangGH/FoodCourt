@@ -5,36 +5,36 @@ import './style.css'
 const dataSource = [
   [
     {
-      name: "猫眼电影",
+      name: "Movie",
       src:
         "https://www.dpfile.com/sc/eleconfig/20170223152109dp_wx_maoyan_icon.png"
     },
     {
-      name: "酒店",
+      name: "Hotel",
       src: "https://www.dpfile.com/sc/eleconfig/20160126203337jiudian.png"
     },
     {
-      name: "休闲娱乐",
+      name: "Life",
       src: "https://www.dpfile.com/sc/eleconfig/20160126202841xiuxianyule.png"
     },
     {
-      name: "外卖",
+      name: "Food",
       src: "https://www.dpfile.com/sc/eleconfig/20160126203251waimai.png"
     },
     {
-      name: "火锅",
+      name: "Takeaway",
       src: "https://www.dpfile.com/sc/eleconfig/20160204172927huoguo.png"
     },
     {
-      name: "美食",
+      name: "Tea",
       src: "https://www.dpfile.com/sc/eleconfig/20160126194705meishi.png"
     },
     {
-      name: "丽人",
+      name: "Beauty",
       src: "https://www.dpfile.com/sc/eleconfig/20160126202946liren.png"
     },
     {
-      name: "休闲娱乐",
+      name: "Holiday",
       src: "https://www.dpfile.com/sc/eleconfig/20160126203542ktv.png"
     },
     {
@@ -42,92 +42,92 @@ const dataSource = [
       src: "https://www.dpfile.com/sc/eleconfig/20160126203440zhoubianyou.png"
     },
     {
-      name: "婚纱摄影",
+      name: "Wedding",
       src: "https://www.dpfile.com/sc/eleconfig/20160126203830jiehun.png"
     }
   ],
   [
     {
-      name: "生活服务",
+      name: "Life",
       src: "https://www.dpfile.com/sc/eleconfig/20170308125500community_new.png"
     },
     {
-      name: "景点",
+      name: "Travel",
       src: "https://www.dpfile.com/sc/eleconfig/20160126205135jingguan.png"
     },
     {
-      name: "爱车",
+      name: "Cars",
       src: "https://www.dpfile.com/sc/eleconfig/20160126203742aiche.png"
     },
     {
-      name: "运动健身",
+      name: "Fitness",
       src: "https://www.dpfile.com/sc/eleconfig/20160126203617jianshen.png"
     },
     {
-      name: "购物",
+      name: "Shopping",
       src: "https://www.dpfile.com/sc/eleconfig/20160314121215icongouwu135.png"
     },
     {
-      name: "亲子",
+      name: "Kids",
       src: "https://www.dpfile.com/sc/eleconfig/20160126203905qinzi.png"
     },
     {
-      name: "到家",
+      name: "Home",
       src: "https://www.dpfile.com/sc/eleconfig/20160126203812daojia.png"
     },
     {
-      name: "家装",
+      name: "Furniture",
       src: "https://www.dpfile.com/sc/eleconfig/20161213162031zhuangxiu.png"
     },
     {
-      name: "学习培训",
+      name: "Training",
       src: "https://www.dpfile.com/gp/cms/1455525720807.png"
     },
     {
-      name: "医疗健康",
+      name: "Health",
       src: "https://www.dpfile.com/sc/eleconfig/20160126204327yiliao.png"
     }
   ],
   [
     {
-      name: "小吃快餐",
+      name: "FastFood",
       src:
         "https://www.dpfile.com/sc/eleconfig/20160204173331xiaochikuaican.png"
     },
     {
-      name: "自助餐",
+      name: "Buffet",
       src: "https://www.dpfile.com/sc/eleconfig/20160204173511zizhucan.png"
     },
     {
-      name: "日本菜",
+      name: "Japanese",
       src: "https://www.dpfile.com/sc/eleconfig/20160415121719rihanliaoli.png"
     },
     {
-      name: "美发",
+      name: "Salon",
       src: "https://www.dpfile.com/sc/eleconfig/20160316142804meifa.png"
     },
     {
-      name: "美甲美瞳",
+      name: "Nails",
       src: "https://www.dpfile.com/sc/eleconfig/20160316143047meijia.png"
     },
     {
-      name: "美容SPA",
+      name: "SPA",
       src: "https://www.dpfile.com/sc/eleconfig/20160316143239meirong.png"
     },
     {
-      name: "瘦身",
+      name: "Fitness",
       src: "https://www.dpfile.com/sc/eleconfig/20160316143316shoushen.png"
     },
     {
-      name: "亲子摄影",
+      name: "Photograph",
       src: "https://www.dpfile.com/sc/eleconfig/20160316143612qinzisheying.png"
     },
     {
-      name: "亲子娱乐",
+      name: "kids",
       src: "https://www.dpfile.com/sc/eleconfig/20160316143656qinziyoule.png"
     },
     {
-      name: "全部分类",
+      name: "All",
       src: "https://www.dpfile.com/sc/eleconfig/20160125182200more.png"
     }
   ]

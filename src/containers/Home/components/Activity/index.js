@@ -10,9 +10,9 @@ class Activity extends Component {
             className="activity__content activity__content--pink"
             href="https://h5.dianping.com/app/ziggurat/1005/index.html?activity_tlt=1005&infrom=mzone"
           >
-            <div className="activity__title">最高88元</div>
+            <div className="activity__title">Up to 90% Off</div>
             <div className="activity__subTitle activity__subTitle--pink">
-              速领新人红包
+              Get Refund
             </div>
             <img
               alt=""
@@ -26,9 +26,9 @@ class Activity extends Component {
             className="activity__content activity__content--blue"
             href="//h5.dianping.com/app/ziggurat/1361/index.html?notitlebar=1&token=*&latitude=*&longitude=*&activity_tlt=1361&infrom=mzone"
           >
-            <div className="activity__title">品质福利放送</div>
+            <div className="activity__title">Awesome Deals</div>
             <div className="activity__subTitle activity__subTitle--blue">
-              享吃喝玩乐礼
+              Best of Food
             </div>
             <img
               alt=""

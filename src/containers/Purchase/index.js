@@ -18,7 +18,7 @@ class Purchase extends Component {
     const { product, phone, quantity, showTip } = this.props;
     return (
       <div>
-        <Header title="下单" onBack={this.handleBack} />
+        <Header title="Submit Order" onBack={this.handleBack} />
         {product ? (
           <PurchaseForm
             product={product}
@@ -29,7 +29,7 @@ class Purchase extends Component {
           />
         ) : null}
         {showTip ? (
-          <Tip message="购买成功！" onClose={this.handleCloseTip} />
+          <Tip message="Your purchase is successful！" onClose={this.handleCloseTip} />
         ) : null}
       </div>
     );

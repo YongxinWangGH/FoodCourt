@@ -13,7 +13,7 @@ class PurchaseForm extends Component {
       <div className="purchaseForm">
         <div className="purchaseForm__wrapper">
           <div className="purchaseForm__row">
-            <div className="purchaseForm__rowLabel">数量</div>
+            <div className="purchaseForm__rowLabel">Quantity</div>
             <div className="purchaseForm__rowValue">
               <span
                 className="purchaseForm__counter--dec"
@@ -36,13 +36,13 @@ class PurchaseForm extends Component {
             </div>
           </div>
           <div className="purchaseForm__row">
-            <div className="purchaseForm__rowLabel">小计</div>
+            <div className="purchaseForm__rowLabel">Total</div>
             <div className="purchaseForm__rowValue">
-              <span className="purchaseForm__totalPrice">¥{totalPrice}</span>
+              <span className="purchaseForm__totalPrice">${totalPrice}</span>
             </div>
           </div>
           <div className="purchaseForm__row">
-            <div className="purchaseForm__rowLabel">手机号码</div>
+            <div className="purchaseForm__rowLabel">Mobile</div>
             <div className="purchaseForm__rowValue">{phone}</div>
           </div>
         </div>
@@ -57,7 +57,7 @@ class PurchaseForm extends Component {
           </li>
         </ul>
         <a className="purchaseForm__submit" onClick={this.handleClick}>
-          提交订单
+          Submit Order
         </a>
       </div>
     );

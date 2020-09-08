@@ -10,7 +10,7 @@ class SearchBox extends Component {
         <div className="searchBox__container">
           <input className="searchBox__text" value={inputText} onChange={this.handleChange}/>
           <span className="searchBox__clear" onClick={this.handleClear}></span>
-          <span className="searchBox__cancel" onClick={this.handleCancel}>取消</span>
+          <span className="searchBox__cancel" onClick={this.handleCancel}>Cancel</span>
         </div>
         {relatedKeywords.length > 0 ? this.renderSuggestList() : null}
       </div>
@@ -25,7 +25,7 @@ class SearchBox extends Component {
             return (
               <li key={item.id} onClick={this.handleClickItem.bind(this, item)} className="searchBox__item">
                 <span className="searchBox__itemKeyworkd">{item.keyword}</span>
-                <span className="searchBox__itemQuantity">约{item.quantity}个结果</span>
+                <span className="searchBox__itemQuantity">Around {item.quantity} results</span>
               </li>
             )
           })

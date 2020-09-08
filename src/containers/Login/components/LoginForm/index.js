@@ -8,14 +8,14 @@ class LoginForm extends Component {
       <div className="loginForm">
         <div className="loginForm__inputContainer">
           <div className="loginForm__row">
-            <label className="loginForm__mobileLabel">86</label>
+            <label className="loginForm__mobileLabel">61</label>
             <input className="loginForm__input"
               name="username" value={username} 
               onChange={onChange}
             ></input>
           </div>
           <div className="loginForm__row">
-            <label className="loginForm__passwordLabel">密码</label>
+            <label className="loginForm__passwordLabel">Password</label>
             <input className="loginForm__input"
               name="password"
               type="password"
@@ -26,7 +26,7 @@ class LoginForm extends Component {
         </div>
         <div className="loginForm__btnContainer">
           <button className="loginForm__btn" onClick={onSubmit}>
-            登录
+            Login
           </button>
         </div>
       </div>

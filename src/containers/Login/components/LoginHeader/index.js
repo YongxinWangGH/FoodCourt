@@ -7,7 +7,7 @@ class LoginHeader extends Component {
     return (
       <div className="loginHeader">
         <Link to='/' className="loginHeader__back"></Link>
-        <div className="loginHeader__title">账号密码登录</div>
+        <div className="loginHeader__title">Customer Login</div>
       </div>
     );
   }

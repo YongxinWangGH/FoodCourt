@@ -6,7 +6,7 @@ class Loading extends Component {
     return (
       <div className="loading">
         <div className="loading__img"/>
-        <span>正在加载...</span>
+        <span>Loading...</span>
       </div>
     );
   }

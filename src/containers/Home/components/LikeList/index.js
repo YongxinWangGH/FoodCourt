@@ -14,7 +14,7 @@ class LikeList extends Component {
     const { data, pageCount } = this.props;
     return (
       <div ref={this.myRef} className="likeList">
-        <div className="likeList__header">猜你喜欢</div>
+        <div className="likeList__header">You May Like...</div>
         <div className="likeList__list">
           {data.map((item, index) => {
             return <LikeItem key={index} data={item} />;
@@ -23,7 +23,7 @@ class LikeList extends Component {
         {pageCount < 3 ? (
           <Loading />
         ) : (
-          <a className="likeList__viewAll">查看更多</a>
+          <a className="likeList__viewAll">Check out more</a>
         )}
       </div>
     );

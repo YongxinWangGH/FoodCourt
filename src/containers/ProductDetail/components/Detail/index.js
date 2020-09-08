@@ -11,7 +11,7 @@ class Detail extends Component {
     return (
       <div className="detail">
         <div className="detail__header">
-          <span>团购详情</span>
+          <span>What's in the deal</span>
           <i className="detail__headerIcon" />
         </div>
         <table cellPadding="0" cellSpacing="0" className="detail__table">
@@ -34,12 +34,12 @@ class Detail extends Component {
             <tr className="detail__row">
               <td />
               <td className="detail__td--price">
-                最高价值
+                Original price
                 <br />
-                <strong className="detail__td--priceNew">团购价</strong>
+                <strong className="detail__td--priceNew">Sale price</strong>
               </td>
               <td className="detail__td--price">
-                {oldPrice}元
+                {oldPrice}
                 <br />
                 <strong className="detail__td--priceNew">
                   {currentPrice}元

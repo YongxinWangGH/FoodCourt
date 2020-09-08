@@ -13,7 +13,7 @@ import OrderItem from "../../components/OrderItem";
 import Confirm from "../../../../components/Confirm";
 import "./style.css";
 
-const tabTitles = ["全部订单", "待付款", "可使用", "退款/售后"];
+const tabTitles = ["All Orders", "To be paid", "Has bought", "Refund"];
 
 class UserMain extends Component {
   render() {
